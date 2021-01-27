@@ -1,6 +1,7 @@
 name: travel-advisory-scrape
 
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '*/5 * * * *'
 
