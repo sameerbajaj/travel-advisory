@@ -2,7 +2,7 @@ name: travel-advisory-scrape
 
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   travel-advisory:
