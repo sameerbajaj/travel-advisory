@@ -12,11 +12,11 @@ html_bytes = page.read()
 html = html_bytes.decode("utf-8")
 
 
-updated_at = html[113309:113332]
+updated_at = html[html.find("Updated"):html.find("Updated")+23]
 
 
 
-
+print(updated_at)
 
 report = {}
 report["value1"] = updated_at
